@@ -214,6 +214,7 @@ extern const AVFilter ff_vf_ciescope;
 extern const AVFilter ff_vf_codecview;
 extern const AVFilter ff_vf_colorbalance;
 extern const AVFilter ff_vf_colorchannelmixer;
+extern const AVFilter ff_vf_divecorrector;
 extern const AVFilter ff_vf_colorcontrast;
 extern const AVFilter ff_vf_colorcorrect;
 extern const AVFilter ff_vf_colorize;
