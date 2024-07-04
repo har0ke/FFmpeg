@@ -231,6 +231,7 @@ OBJS-$(CONFIG_CIESCOPE_FILTER)               += vf_ciescope.o
 OBJS-$(CONFIG_CODECVIEW_FILTER)              += vf_codecview.o qp_table.o
 OBJS-$(CONFIG_COLORBALANCE_FILTER)           += vf_colorbalance.o
 OBJS-$(CONFIG_COLORCHANNELMIXER_FILTER)      += vf_colorchannelmixer.o
+OBJS-$(CONFIG_DIVECORRECTOR_FILTER)          += vf_divecorrector.o
 OBJS-$(CONFIG_COLORCONTRAST_FILTER)          += vf_colorcontrast.o
 OBJS-$(CONFIG_COLORCORRECT_FILTER)           += vf_colorcorrect.o
 OBJS-$(CONFIG_COLORIZE_FILTER)               += vf_colorize.o
