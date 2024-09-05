@@ -332,8 +332,6 @@ static int config_output(AVFilterLink *outlink)
                 s->lut[i][j] = buffer;
     }
 
-    printf("OFFSET size %d", size);
-
     s->offsets[R] = lrint(size * s->ro * s->mix);
     s->offsets[G] = lrint(size * s->go * s->mix);
     s->offsets[B] = lrint(size * s->bo * s->mix);
